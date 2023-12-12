@@ -1,0 +1,9 @@
+dev:
+  config:
+    Database:
+      Mongo:
+        Collection: 'CourseworkTwo'
+        Db: 'Equity'
+        url: 'localhost:27017'
+
+  
