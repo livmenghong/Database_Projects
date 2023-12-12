@@ -1,0 +1,15 @@
+dev:
+  config:
+    Database:
+      Mongo:
+        Collection: 'CourseworkTwo'
+        Db: 'Equity'
+        url: 'mongodb://localhost:27017'
+      SQLite:
+        SQLDBPath : '../../000.DataBases/SQL/Equity.db'      
+        Table: 'trades_suspects'
+        TabletoAdd: 'portfolio_positions'
+        TabletoGet: 'equity_prices'
+        url: 'mongodb://localhost:27017'
+
+  
